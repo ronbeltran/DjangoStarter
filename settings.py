@@ -1,5 +1,11 @@
 # Django settings for cms project.
 import os
+import sys
+
+# add apps directory to python path
+PROJECT_ROOT = os.path.dirname(__file__)
+sys.path.insert(0, os.path.join(PROJECT_ROOT, 'lib'))
+sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
