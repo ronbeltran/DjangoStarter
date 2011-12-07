@@ -142,6 +142,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'cms.context_processors.context_variables',
 )
 
+SITE_TITLE = 'Project name'
+SITE_DESCRIPTION = 'Supporting text or tagline'
+SITE_AUTHOR = 'Your Name Here'
+
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error.
