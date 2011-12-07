@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ settings.SITE_TITLE }}</title>
+    <title>{% block title %}{% endblock %} - {{ settings.SITE_TITLE }}</title>
     <meta name="description" content="{{ settings.SITE_DESCRIPTION }}">
     <meta name="author" content="{{ settings.SITE_AUTHOR }}">
 
