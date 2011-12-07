@@ -17,3 +17,4 @@ My simple Django project template.
 4. Setup db and run.
     - python manage.py syncdb
     - python manage.py runserver 
+5. Grab some coffee, or should I put this at #1 ?
